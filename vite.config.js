@@ -38,8 +38,7 @@ const config = defineConfig({
         manualChunks: {
           // Split external library from transpiled code.
           vue: ['vue', 'vue-router', 'vuex'],
-          vuetify: ['vuetify/lib', 'vuetify/src'],
-          lodash: ['lodash', 'lodash-es'],
+          vuetify: ['vuetify/lib', 'vuetify/src']
         },
       },
     },
